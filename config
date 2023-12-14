@@ -1,19 +1,19 @@
 [user]
-	email = yournew@email.com
-	name = yournewgoodname
+	email = omozemojeau@gmail.com
+	name = LASGLOWTECH
 [http]
-	postbuffer =999999999
+	postbuffer =5m
 [pack]
-deltaCacheSize=1g
-packSizeLimit=1g
-	windowMemory = 1g
+deltaCacheSize= 128m
+packSizeLimit= 128m
+	windowMemory =  128m
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 [core]
-	packedGitLimit=1g
-	packedGitWindowSize=1g
+	packedGitLimit= 128m
+	packedGitWindowSize= 128m
 	editor = code --wait
 
