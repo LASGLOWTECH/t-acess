@@ -34,7 +34,7 @@ export default function Navbar() {
 
                 <div className='text-6xl '>
                     <Link href='/'>
-                        <Image src="/talosmart.png"
+                        <Image src="/Logograd.png"
                             width={50}
                             height={50}
                             alt="image" />

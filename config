@@ -1,0 +1,3 @@
+  user.email=omozemojeau@gmail.com
+  user.name=user.email
+  http.postbuffer=5m

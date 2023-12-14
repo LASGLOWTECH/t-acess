@@ -1,13 +1,13 @@
 
 "use client";
-import Router, { useRouter } from "next/router";
+
 import Link from "next/link";
 import { FormEvent } from "react";
 export default function Form(){
-  const Router= useRouter
+  
     
   const onRegister = async (e:FormEvent<HTMLFormElement>) => {
-    Router.push('/login')
+    
     e.preventDefault(); 
     const formData=  new   FormData (e.currentTarget);
     const response= await fetch('/api/auth/signup',{
@@ -20,10 +20,10 @@ export default function Form(){
       
     ),
  
-
+   
     });
     console.log({response});
-    
+   
   }
 
 return(
